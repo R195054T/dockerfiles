@@ -1,0 +1,77 @@
+Introduction
+print( "sql, python, R, Julia")
+sql, python, R, Julia
+print("pandas, Matplotlib, Scikit-learnn, NumPy,TensorFlow")
+pandas, Matplotlib, Scikit-learnn, NumPy,TensorFlow
+from tabulate import tabulate
+from IPython.display import Markdown
+
+table_data = [
+    ["Tool", "Description"],
+    ["NumPy", "Fundamental library for scientific computing in Python"],
+    ["Pandas", "Library for data manipulation and analysis"],
+    ["Matplotlib", "Plotting library for creating visualizations"],
+    ["Scikit-learn", "Machine learning library with various algorithms"],
+    ["TensorFlow", "Library for machine learning and deep learning"]
+]
+
+table = tabulate(table_data, headers="firstrow", tablefmt="pipe")
+
+display(Markdown(table))
+Tool	Description
+NumPy	Fundamental library for scientific computing in Python
+Pandas	Library for data manipulation and analysis
+Matplotlib	Plotting library for creating visualizations
+Scikit-learn	Machine learning library with various algorithms
+TensorFlow	Library for machine learning and deep learning
+arithmetic expression examples
+Selection deleted
+a = 5
+b = 3
+sum = a + b
+print("Sum:", sum)
+
+c = 7
+d = 2
+difference = c - d
+print("Difference:", difference)
+
+e = 4
+f = 6
+product = e * f
+print("Product:", product)
+
+g = 10
+h = 2
+quotient = g / h
+print("Quotient:", quotient)
+
+i = 2
+j = 3
+result = i ** j
+print("Result:", result)
+Sum: 8
+Difference: 5
+Product: 24
+Quotient: 5.0
+Result: 8
+Conversion of Minutes to Hours
+minutes = 150
+hours = minutes / 60
+
+print("Minutes:", minutes)
+print("Hours:", hours)
+Minutes: 150
+Hours: 2.5
+Objectives
+Understand the concept of arithmetic operations in Python.
+Perform addition, subtraction, multiplication, division, and exponentiation.
+Convert minutes to hours.
+Gain familiarity with markdown cells in Jupyter Notebook.
+
+
+
+
+
+
+Author: Paul Mutesva
